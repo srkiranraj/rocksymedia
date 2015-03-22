@@ -32,6 +32,8 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/messenger.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/messenger-theme-flat.css" />
 
+	@yield('css')
+
 	<script src="assets/js/libs/prefixfree.min.js"></script>
 	<script src="assets/js/libs/modernizr-2.7.1.dev.js"></script>
 
@@ -154,7 +156,7 @@
 	<script src="assets/js/map.js"></script>
 	<script src="assets/js/functions.js"></script>
 
-
+	@yield('scripts')
 
 	<!-- 
 	<script>
