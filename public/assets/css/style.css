@@ -1,0 +1,84 @@
+body, select, input, textarea {color: #333;}
+
+a {color: #03f;}
+a:hover {color: #69f;}
+
+::-moz-selection{background: #fcd700; color: #fff; text-shadow: none;}
+::selection {background: #fcd700; color: #fff; text-shadow: none;} 
+
+a:link {-webkit-tap-highlight-color: #fcd700;} 
+
+ins {background-color: #fcd700; color: #000; text-decoration: none;}
+mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: bold;}
+
+input:-moz-placeholder { color:#a9a9a9; }
+textarea:-moz-placeholder { color:#a9a9a9; }
+
+.sub-service-wrapper{
+	width: 971px;
+	margin: auto;
+}
+
+.sub-service{
+	display: inline-block;
+	text-align: center;
+	width: 300px;
+	padding-bottom: 30px;
+	margin: 10px;
+}
+
+.sub-service h2{
+	font-size: 24px;
+	padding: 20px 0px;
+	font-weight: bold;
+}
+
+.sub-service p{
+	padding: 10px;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.sub-service .btn{
+	display: inline-block;
+	margin-top: 20px;
+	border: 1px solid;
+	color: #FFF;
+	border-radius: 2px;
+	padding: 5px 20px;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.sub-service .btn:hover{
+	border: 1px dashed;
+}
+
+.sub-service .placeholder{
+}
+
+/* Media queries
+-------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 768px) {
+	.sub-service-wrapper{
+		width: 648px;
+	}
+}
+
+@media screen and (max-width: 512px) {
+	.sub-service-wrapper{
+		width: 324px;
+	}
+}
+
+
+
+/* Print styles
+-------------------------------------------------------------------------------*/
+@media print {
+
+
+
+}
