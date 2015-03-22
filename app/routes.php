@@ -33,8 +33,8 @@ Route::post('message', function(){
 
 	Mail::send('emails.contact', $data, function($message)
 	{
-		// $message->to('rakesh@rockysmedia.com', 'Rakesh Bhaskar')->subject('Contact Form Submitted');
-	    $message->to('srkiranraj@gmail.com', 'Kiran Raj')->subject('Contact Form Submitted');
+		$message->to(array('rakesh@rockysmedia.com', 'srkiranraj@gmail.com'), 'Rakesh Bhaskar')->subject('Contact Form Submitted');
+	    // $message->to('srkiranraj@gmail.com', 'Kiran Raj')->subject('Contact Form Submitted');
 	});
 
 	return "success";
