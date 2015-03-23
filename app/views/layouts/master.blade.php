@@ -85,21 +85,25 @@
 						<div class="icon">
 							<label class="cd-label" for="cd-name">Name</label>
 							<input class="user" type="text" name="cd-name" id="cd-name" required>
+							<div id="cd-name-error" class="error"></div>
 					    </div> 
 
 					    <div class="icon">
 					    	<label class="cd-label" for="cd-company">Company</label>
 							<input class="company" type="text" name="cd-company" id="cd-company" required>
+							<div id="cd-company-error" class="error"></div>
 					    </div> 
 
 					    <div class="icon">
 					    	<label class="cd-label" for="cd-phone">Phone</label>
 							<input class="tel" type="tel" name="cd-phone" id="cd-phone" required>
+							<div id="cd-phone-error" class="error"></div>
 					    </div>
 
 					    <div class="icon">
 					    	<label class="cd-label" for="cd-email">Email</label>
 							<input class="email" type="email" name="cd-email" id="cd-email" required>
+							<div id="cd-email-error" class="error"></div>
 					    </div>
 					</fieldset>
 
@@ -109,6 +113,7 @@
 						<div class="icon">
 							<label class="cd-label" for="cd-textarea">Project description</label>
 			      			<textarea class="message" name="cd-textarea" id="cd-textarea" required></textarea>
+			      			<div id="cd-textarea-error" class="error"></div>
 						</div>
 
 						<div>

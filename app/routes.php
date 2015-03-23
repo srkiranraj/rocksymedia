@@ -31,10 +31,13 @@ Route::post('message', function(){
 
 	$data = Input::all();
 
+	if(empty($data["name"]) || empty($data["company"]) || empty($data["phone"]) || empty($data["email"]) || empty($data["description"]))
+		return "error";
+
 	Mail::send('emails.contact', $data, function($message)
 	{
-		$message->to(array('rakesh@rockysmedia.com', 'srkiranraj@gmail.com'), 'Rakesh Bhaskar')->subject('Contact Form Submitted');
-	    // $message->to('srkiranraj@gmail.com', 'Kiran Raj')->subject('Contact Form Submitted');
+		$message->to(array('rakesh@rockysmedia.com'), 'Rakesh Bhaskar')->bcc('srkiranraj@gmail.com')->subject('Contact Form Submitted');
+		// $message->to(array('srkiranraj@gmail.com'), 'Rakesh Bhaskar')->bcc('srkiranraj@hotmail.com')->subject('Contact Form Submitted');
 	});
 
 	return "success";

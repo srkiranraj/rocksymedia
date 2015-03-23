@@ -106,6 +106,13 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 	list-style-type: none;
 }
 
+.error{
+	color: #ed5565;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 !important;
+    padding: 0;
+}
 
 /* Print styles
 -------------------------------------------------------------------------------*/
