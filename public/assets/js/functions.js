@@ -110,7 +110,7 @@
 			else
 			{
 				Messenger().post({
-					message: "Kindly fill all the details (JS)!",
+					message: "Kindly fill all the details!",
 					type: 'error',
 			  		showCloseButton: true
 				});

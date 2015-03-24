@@ -68,6 +68,16 @@ Modules - reusable parts of our design
   list-style-type: disc;
 }
 
+.cd-container p{
+  margin: 20px 0px;
+}
+
+.cd-container ul p{
+  line-height: 24px;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
 .cd-container::after {
   /* clearfix */
   content: '';

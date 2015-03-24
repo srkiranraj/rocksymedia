@@ -17,21 +17,21 @@
 					<div class="placeholder">
 						<h2><strong>Content</strong></h2>
 					</div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore incidunt suscipit similique, dolor corrupti cumque qui consectetur autem laborum fuga quas ipsam doloribus sequi</p>
+					<p>Content is an integral part of all media and majorly determines how effectively communication happens. We, at Rocky’s Media Works, help you with various aspects of content generation such as Transcriptions Translations, Localization etc</p>
 					<a href="content" class="btn">Know More</a>
 				</div>
 				<div class="sub-service">
 					<div class="placeholder">
-						<h2><strong>Voice Over</strong></h2>
+						<h2><strong>Voice</strong></h2>
 					</div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore incidunt suscipit similique, dolor corrupti cumque qui consectetur autem laborum fuga quas ipsam doloribus sequi</p>
+					<p>Voice is the best instrument to communicate emotions. A voice can educate, inform and entertain. Each voice has its unique signature and has a personality of its own. We at Rocky’s Media Works efficiently identify these traits and use best in class technology to fulfill customer needs.</p>
 					<a href="voice" class="btn">Know More</a>
 				</div>
 				<div class="sub-service">
 					<div class="placeholder">
 						<h2><strong>Music</strong></h2>
 					</div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore incidunt suscipit similique, dolor corrupti cumque qui consectetur autem laborum fuga quas ipsam doloribus sequi</p>
+					<p>Music is something that hits everyone. It’s beyond Age, Gender, Language and Geography. It is the most effective tool to communicate and express. And we, at Rocky’s media works, provide music production service for various categories and needs.</p>
 					<a href="music" class="btn">Know More</a>
 				</div>
 			</div>
@@ -46,7 +46,13 @@
 		<div class="cd-container">
 			<h1 id="about">About Us</h1>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore incidunt suscipit similique, dolor corrupti cumque qui consectetur autem laborum fuga quas ipsam doloribus sequi, mollitia, repellendus sapiente repudiandae labore rerum amet culpa inventore, modi non. Quo nisi veritatis vitae nam, labore fugit. Inventore culpa iusto, officia exercitationem. Voluptates quibusdam odit odio incidunt consequatur, consectetur aspernatur optio vitae molestias, quas repellendus fugit ullam culpa, eligendi et dignissimos voluptatibus illum? Molestias aliquam nostrum quasi ipsa culpa, iusto explicabo ut error, consequuntur enim temporibus, adipisci tempora voluptate, id consequatur mollitia eveniet blanditiis. Illo quod repellendus alias? Cum rem doloremque adipisci accusantium? Saepe, necessitatibus!
+				Rocky’s Media Works is the reality that has been built from an enthusiastic dream to bring a fresh and engaging platform to find an integrated solution for all your media needs. We foresee ourselves being a leading and preferred media solutions provider, keeping in mind the quality, customer centricity and value for money as our utmost priority.
+			</p>
+			<p>
+				Our diverse workforce, with skilled professionals who come up with creative solutions, is our biggest strength.
+			</p>
+			<p>
+				We also see technology as one of the major contributors in providing simple solutions to complex problems, and that’s why we at Rocky’s Media Works use best in class technology for all our services.
 			</p>
 		</div>
 	</div>
