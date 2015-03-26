@@ -102,7 +102,8 @@ Form
 .cd-form textarea:focus,
 .cd-form select:focus {
   outline: none;
-  border-color: #2c97de;
+  /*border-color: #2c97de;*/
+  border-color: #E9A804;
   box-shadow: 0 0 5px rgba(44, 151, 222, 0.2);
 }
 .cd-form .cd-select {
@@ -349,6 +350,7 @@ Custom icons
 }
 .cd-form .company {
   background: url("../img/cd-icon-company.svg") no-repeat 16px center;
+  background-color: #222 !important;
 }
 .cd-form [required].company {
   background: url("../img/cd-icon-company.svg") no-repeat 16px center, url("../img/cd-required.svg") no-repeat top right;

@@ -10,7 +10,7 @@
 			<h1 id="content">Content</h1>
 			<p>Content is an integral part of all media and majorly determines how effectively communication happens. We, at Rocky’s Media Works, help you with various aspects of content generation such as Transcriptions Translations, Localization etc.</p>
 			<ul>
-				<li>Script &amp; Web Content Development</li>
+				<!-- <li>Script &amp; Web Content Development</li> -->
 				<li>
 					Audio/Video Transcription
 					<p>Transcription involves converting an audio or video into a readable script. The media industry today requires this on many occasions. We undertake high quality audio and video transcription with a quick turnaround time.</p>

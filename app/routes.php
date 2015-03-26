@@ -31,7 +31,7 @@ Route::post('message', function(){
 
 	$data = Input::all();
 
-	if(empty($data["name"]) || empty($data["company"]) || empty($data["phone"]) || empty($data["email"]) || empty($data["description"]))
+	if(empty($data["name"]) || empty($data["phone"]) || empty($data["email"]) || empty($data["description"]))
 		return "error";
 
 	Mail::send('emails.contact', $data, function($message)

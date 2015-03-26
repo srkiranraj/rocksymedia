@@ -79,6 +79,33 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 	margin: 60px 0px;
 }
 
+#voicebank #languages{
+	margin: 20px 0px;
+}
+
+#voicebank-player.container{
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+
+#voicebank-player audio{
+	width: 80%;
+}
+
+#voicebank-player .gender-title{
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+#voicebank-player .sample-row{
+	margin-bottom: 20px;
+}
+
+#voicebank-player .sample-name{
+
+}
+
 #voicebank .language{
 	font-size: 16px;
 	display: inline-block;
@@ -91,13 +118,14 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 }
 
 #voicebank .language:hover{
-	background: #AC92EC;
-	border-color: #AC92EC;
+	background: #E9A804;
+	border-color: #E9A804;
 }
 
 #voicebank .language.selected, #voicebank .language.selected:hover{
-	background: #967ADC;
-	border-color: #967ADC;
+	background: #E9A804;
+	border-color: #E9A804;
+	color: #000;
 }
 
 #voicebank-player {

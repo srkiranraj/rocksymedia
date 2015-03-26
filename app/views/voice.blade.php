@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('css')
-	<link rel="stylesheet" type="text/css" href="assets/css/codepen-player.css" />
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/codepen-player.css" /> -->
 @stop
 
 @section('content')
@@ -40,31 +40,12 @@
 					
 				</div>
 			</div>
-			<div id="voicebank-player" class="container">
-			    <div class="column add-bottom">
-			        <div id="mainwrap">
-			            <div id="nowPlay">
-			                <span class="left" id="npAction">Paused...</span>
-			                <span class="right" id="npTitle"></span>
-			            </div>
-			            <div id="audiowrap">
-			                <div id="audio0">
-			                    <audio preload id="audio1" controls="controls">Your browser does not support HTML5 Audio!</audio>
-			                </div>
-			                <!-- <div id="tracks">
-			                    <a id="btnPrev">&laquo;</a>
-			                    <a id="btnNext">&raquo;</a>
-			                </div> -->
-			            </div>
-			            <div id="plwrap">
-			                <ul id="plList">
-			                    
-			                </ul>
-			            </div>
-			        </div>
-			    </div>
+			<div id="voicebank-player" class="container male">
+			    
 			</div>
-
+			<div id="voicebank-player" class="container female">
+			    
+			</div>
 		</div>
 	</div>
 @stop

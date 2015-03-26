@@ -44,8 +44,8 @@
 	<header class="cd-header">
 		<div id="cd-logo">
 			<a href="/">
-				<!-- <img src="assets/img/cd-logo.svg" alt="Logo"> -->
-				<img src="assets/img/cd-logo-t.png" alt="Logo">
+				<img src="assets/img/cd-logo-t-full.png" alt="Logo" height="60px">
+				<!-- <img src="assets/img/cd-logo-t.png" alt="Logo"> -->
 			</a>
 		</div>
 
@@ -76,7 +76,7 @@
 		<div class="cd-scrolling-bg cd-color-4 cd-maps">
 			<div class="cd-container">
 				<h1 id="contact">Contact Us</h1>
-				<form class="cd-form floating-labels">
+				<form class="cd-form floating-labels" novalidate>
 					<fieldset>
 						<legend>Your Info</legend>
 						<div class="error-message">
@@ -90,7 +90,7 @@
 
 					    <div class="icon">
 					    	<label class="cd-label" for="cd-company">Company</label>
-							<input class="company" type="text" name="cd-company" id="cd-company" required>
+							<input class="company" type="text" name="cd-company" id="cd-company">
 							<div id="cd-company-error" class="error"></div>
 					    </div> 
 

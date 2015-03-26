@@ -9,6 +9,10 @@
 		</h1>
 	</div>
 
+	<div id="home" class="cd-fixed-bg cd-bg-2">
+		<h1>Services</h1>
+	</div>
+
 	<div class="cd-scrolling-bg cd-color-5">
 		<div class="cd-container">
 			<h1 id="services">Services</h1>
@@ -38,9 +42,9 @@
 		</div>
 	</div>
 
-	<div class="cd-fixed-bg cd-bg-2">
+	<!-- <div class="cd-fixed-bg cd-bg-2">
 		<h2>About Us</h2>
-	</div>
+	</div> -->
 
 	<div class="cd-scrolling-bg cd-color-2">
 		<div class="cd-container">

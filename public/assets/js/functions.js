@@ -103,9 +103,10 @@
 					  		showCloseButton: true
 						});					
 					}
+					$('#cd-submit').val('Send Message');
+					$('#cd-submit').prop('disabled', false);
 				});
-				$('#cd-submit').val('Send Message');
-				$('#cd-submit').prop('disabled', false);
+				
 			}
 			else
 			{
@@ -138,7 +139,16 @@
 				$('#cd-phone-error').html('Enter your phone number!');
 			}
 			else
-				$('#cd-phone-error').html('');
+			{
+				var re = /^\+?\d+\-?\d+$/;
+				if(!re.test($('#cd-phone').val()))
+				{
+					valid = false;
+					$('#cd-phone-error').html('Enter a valid phone number (Eg: +91-9876543210)!');
+				}
+				else
+					$('#cd-phone-error').html('');
+			}
 
 			if($('#cd-email').val() == "")
 			{
@@ -158,13 +168,13 @@
 			}
 				
 
-			if($('#cd-company').val() == "")
-			{
-				valid = false;
-				$('#cd-company-error').html('Enter your company name!');
-			}
-			else
-				$('#cd-company-error').html('');
+			// if($('#cd-company').val() == "")
+			// {
+			// 	valid = false;
+			// 	$('#cd-company-error').html('Enter your company name!');
+			// }
+			// else
+			// 	$('#cd-company-error').html('');
 
 			if($('#cd-textarea').val() == "")
 			{
