@@ -11,7 +11,7 @@
 
 	<div class="cd-scrolling-bg cd-color-5">
 		<div class="cd-container">
-			<h1 id="voice">Voice Overs</h1>
+			<h1 id="voice">Voiceovers</h1>
 			<p>Voice is the best instrument to communicate emotions. A voice can educate, inform and entertain. Each voice has its unique signature and has a personality of its own. We at Rocky’s Media Works efficiently identify these traits and use best in class technology to fulfill customer needs.</p>
 			<ul>
 				<li>

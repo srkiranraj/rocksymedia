@@ -158,9 +158,12 @@ Main components
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 14px;
+  cursor: pointer;
 }
 
-.no-touch .cd-main-nav a:hover {
+
+
+.no-touch .cd-main-nav a:hover, .sub-menu a:hover {
 	color: #99a478;
 }
 

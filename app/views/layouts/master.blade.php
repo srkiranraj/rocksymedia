@@ -53,12 +53,12 @@
 			<ul>
 				@if($page == "main")
 					<li><a class="scroll" href="#home">Home</a></li>
-					<li><a class="has-submenu" href="#services">Services</a></li>
 					<li><a class="scroll" href="#about">About</a></li>
+					<li><a class="has-submenu" href="#services">Services</a></li>
 				@else
 					<li><a href="/">Home</a></li>
-					<li><a class="has-submenu">Services</a></li>
 					<li><a href="/#about">About</a></li>
+					<li><a class="has-submenu">Services</a></li>
 				@endif
 				<li><a class="scroll" href="#contact">Contact</a></li>
 			</ul>
@@ -145,7 +145,7 @@
 				<li><a href="/#services">Overview</a></li>
 			@endif -->
 			<li><a href="content">Content</a></li>
-			<li><a href="voice">Voice Overs</a></li>
+			<li><a href="voice">Voiceovers</a></li>
 			<li><a href="music">Music</a></li>
 
 		</ul>
