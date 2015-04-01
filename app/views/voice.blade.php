@@ -34,7 +34,7 @@
 			</ul>
 			
 
-			<div id="voicebank">
+			<!-- <div id="voicebank">
 				<h1>Voice Bank</h1>
 				<div id="languages">
 					
@@ -45,7 +45,7 @@
 			</div>
 			<div id="voicebank-player" class="container female">
 			    
-			</div>
+			</div> -->
 		</div>
 	</div>
 @stop

@@ -50,17 +50,51 @@
 		</div>
 
 		<nav class="cd-main-nav">
-			<ul>
+			<ul class="desktop-menu">
 				@if($page == "main")
 					<li><a class="scroll" href="#home">Home</a></li>
-					<li><a class="scroll" href="#about">About</a></li>
+					<li><a class="scroll" href="#about">About Us</a></li>
 					<li><a class="has-submenu" href="#services">Services</a></li>
 				@else
 					<li><a href="/">Home</a></li>
-					<li><a href="/#about">About</a></li>
+					<li><a href="/#about">About Us</a></li>
 					<li><a class="has-submenu">Services</a></li>
 				@endif
-				<li><a class="scroll" href="#contact">Contact</a></li>
+				<li><a href="voicebank">Voice Bank</a></li>
+				<li><a class="scroll" href="#contact">Contact Us</a></li>
+			</ul>
+			<ul class="mobile-menu">
+				<li><a class="has-mobile-menu">Menu</a></li>
+			</ul>
+		</nav>
+		<nav class="mobile-sub-menu">
+			<ul>
+				@if($page == "main")
+					<li><a class="scroll" href="#home">Home</a></li>
+					<li><a class="scroll" href="#about">About Us</a></li>
+					<li>
+						<a class="scroll" href="#services">Services</a>
+						<ul class="services-mobile-sub">
+							<li><a href="content">Content</a></li>
+							<li><a href="voiceovers">Voiceovers</a></li>
+							<li><a href="music">Music</a></li>
+						</ul>
+					</li>
+				@else
+					<li><a href="/">Home</a></li>
+					<li><a href="/#about">About Us</a></li>
+					<li>
+						<a href="/#services">Services</a>
+						<ul class="services-mobile-sub">
+							<li><a href="content">Content</a></li>
+							<li><a href="voiceovers">Voiceovers</a></li>
+							<li><a href="music">Music</a></li>
+						</ul>
+					</li>
+				@endif
+
+				<li><a href="voicebank">Voice Bank</a></li>
+				<li><a class="scroll" href="#contact">Contact Us</a></li>
 			</ul>
 		</nav>
 
@@ -121,12 +155,17 @@
 					    </div>
 					</fieldset>
 				</form>
+				<div class="contact-info">
+					<div class="title">Address</div>
+					<address>Rocky's Media Works,<br/>No 168K, Second floor,<br/>19th Main, 1st Block, Rajajinagar,<br/>Bengaluru - 560010</address> 
+					
+				</div>
 			</div>
 			<section id="cd-google-map">
 				<div id="google-container"></div>
 				<div id="cd-zoom-in"></div>
 				<div id="cd-zoom-out"></div>
-				<address>Rocky's Media Works, No 168K, Second floor, 19th Main, 1st Block, Rajajinagar, Bengaluru - 560010</address> 
+				<address>Rocky's Media Works, No 168K, Second floor, 19th Main, 1st Block, Rajajinagar, Bengaluru - 560010</address> 	
 			</section>
 		</div>
 
@@ -145,7 +184,7 @@
 				<li><a href="/#services">Overview</a></li>
 			@endif -->
 			<li><a href="content">Content</a></li>
-			<li><a href="voice">Voiceovers</a></li>
+			<li><a href="voiceovers">Voiceovers</a></li>
 			<li><a href="music">Music</a></li>
 
 		</ul>

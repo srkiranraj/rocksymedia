@@ -32,7 +32,6 @@ body {
   font-size: 100%;
   font-family: "Open Sans", sans-serif;
   color: #3d3536;
-  background-color: white;
 }
 
 body, html {
@@ -85,6 +84,8 @@ Modules - reusable parts of our design
 
 .cd-container p{
   margin: 20px 0px;
+  line-height: 24px;
+  font-size: 16px;
 }
 
 .cd-container ul p{
@@ -137,6 +138,72 @@ Main components
   }
 }
 
+.cd-main-nav .mobile-menu{
+  display: none;
+}
+
+.cd-main-nav .has-mobile-menu{
+  position: relative;
+  padding-left: 1.25em;
+}
+
+.cd-main-nav .has-mobile-menu:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 11px;
+  width: 1em;
+  height: 0.12em;
+  background: #FFF;
+  box-shadow: 
+    0 0.25em 0 0 #FFF,
+    0 0.5em 0 0 #FFF;
+}
+
+.cd-main-nav .has-mobile-menu:hover:before{
+ background: orange;
+ box-shadow: 
+    0 0.25em 0 0 orange,
+    0 0.5em 0 0 orange; 
+}
+
+.mobile-sub-menu {
+  display: none;
+  padding: 70px 0px 20px 0px;
+}
+.mobile-sub-menu.visible{
+    display: none;
+}
+
+.mobile-sub-menu li a{
+  display: block;
+  color: white;
+  text-transform: uppercase;
+  padding: 20px 0px 10px 40%;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.mobile-sub-menu li a:hover{
+  color: #E9A804;
+}
+
+.services-mobile-sub{
+  padding-left: 70px;
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile-sub-menu.visible{
+    display: block;
+  }
+  .cd-main-nav .mobile-menu{
+    display: inline-block;
+  }  
+  .cd-main-nav .desktop-menu{
+    display: none;
+  }  
+}
+
 .cd-main-nav {
 	float: right;
 	margin-right: 5%;
@@ -152,7 +219,7 @@ Main components
 	height: auto;
 	line-height: normal;
 	background: transparent;
-	padding: .4em;
+	padding: .4em 1em;
 	border-top: none;
 	color: #EEE;
 	text-transform: uppercase;
@@ -164,7 +231,7 @@ Main components
 
 
 .no-touch .cd-main-nav a:hover, .sub-menu a:hover {
-	color: #99a478;
+	color: #E9A804;
 }
 
 .cd-main-content {
@@ -268,7 +335,6 @@ Main components
 
 @media only screen and (min-width: 768px) {
   .cd-scrolling-bg {
-    padding: 8em 0;
     font-size: 20px;
     line-height: 2;
     font-weight: 300;

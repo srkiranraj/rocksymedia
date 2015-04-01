@@ -2,10 +2,10 @@
 
 @section('content')
 
-	<div id="home" class="cd-fixed-bg cd-bg-1">
+	<div id="home" class="cd-fixed-bg cd-bg-2">
 		<h1>
 			<!-- <img src="assets/img/cd-logo-big.svg" alt="Rocky's Media Works" width="60%"> -->
-			<img src="assets/img/cd-logo-t-full.png" alt="Rocky's Media Works" width="60%">
+			<img src="assets/img/cd-logo-t-full.png" alt="Rocky's Media Works" width="40%">
 		</h1>
 	</div>
 
@@ -15,7 +15,8 @@
 
 	<div class="cd-scrolling-bg cd-color-2">
 		<div class="cd-container">
-			<h1 id="about">About Us</h1>
+			<div id="about" class="dummy"></div>
+			<h1>About Us</h1>
 			<p>
 				Rocky’s Media Works is the reality that has been built from an enthusiastic dream to bring a fresh and engaging platform to find an integrated solution for all your media needs. We foresee ourselves being a leading and preferred media solutions provider, keeping in mind the quality, customer centricity and value for money as our utmost priority.
 			</p>
@@ -34,7 +35,8 @@
 
 	<div class="cd-scrolling-bg cd-color-5">
 		<div class="cd-container">
-			<h1 id="services">Services</h1>
+			<div id="services" class="dummy"></div>
+			<h1>Services</h1>
 			<div class="sub-service-wrapper">
 				<div class="sub-service">
 					<div class="placeholder">
@@ -48,7 +50,7 @@
 						<h2><strong>Voiceovers</strong></h2>
 					</div>
 					<p>Voice is the best instrument to communicate emotions. A voice can educate, inform and entertain. Each voice has its unique signature and has a personality of its own. We at Rocky’s Media Works efficiently identify these traits and use best in class technology to fulfill customer needs.</p>
-					<a href="voice" class="btn">Know More</a>
+					<a href="voiceovers" class="btn">Know More</a>
 				</div>
 				<div class="sub-service">
 					<div class="placeholder">

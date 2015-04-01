@@ -17,7 +17,7 @@
 				</li>
 				<li>
 					Translation &amp; Localization
-					<p>Effective communication with an audience happens best in their native language. We undertake translations to and from various languages such as <>. We also adapt the translations to the local dialects thus enabling a better association with the local population.</p>
+					<p>Effective communication with an audience happens best in their native language. We Undertake translations to and from various Indian and International languages. We also adapt the translations to the local dialects thus enabling a better association with the local population.</p>
 				</li>
 				<li>
 					Script QC

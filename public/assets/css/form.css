@@ -17,7 +17,6 @@ body {
   font-size: 1.6rem;
   font-family: "Open Sans", sans-serif;
   color: #2b3e51;
-  background-color: #ffffff;
 }
 
 a {
@@ -228,7 +227,9 @@ Form
 .cd-form input[type="submit"] {
   /* button style */
   border: none;
-  background: #2c97de;
+  /*background: #2c97de;*/
+  background: none;
+  border: 1px solid #E9A804;
   border-radius: .25em;
   padding: 16px 20px;
   color: #ffffff;
@@ -245,16 +246,17 @@ Form
 }
 
 .no-touch .cd-form input[type="submit"]:hover:enabled {
-  background: #42a2e1;
+  /*background: #42a2e1;*/
+  border: 1px solid #E9A804;
 }
 
 input[type="submit"]:disabled, input[type="submit"]:disabled:hover {
-    background: #dddddd;
+    background: #DDD;
 }
 
 .cd-form input[type="submit"]:focus {
   outline: none;
-  background: #2b3e51;
+  /*background: #2b3e51;*/
 }
 .cd-form input[type="submit"]:active {
   -webkit-transform: scale(0.9);

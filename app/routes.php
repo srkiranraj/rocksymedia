@@ -19,8 +19,17 @@ Route::get('content', function(){
 	return View::make('content')->withPage('sub');
 });
 
+// Depreciated
 Route::get('voice', function(){
 	return View::make('voice')->withPage('sub');
+});
+
+Route::get('voiceovers', function(){
+	return View::make('voice')->withPage('sub');
+});
+
+Route::get('voicebank', function(){
+	return View::make('voicebank')->withPage('sub');
 });
 
 Route::get('music', function(){

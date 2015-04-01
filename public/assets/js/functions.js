@@ -37,6 +37,7 @@
 
 		$('html').click(function(event) {
 			$('.sub-menu').removeClass('visible');
+			$('.mobile-sub-menu').removeClass('visible');
 		});
 
 		$('a.has-submenu').click(function(event){
@@ -54,6 +55,12 @@
 		
 			$('.sub-menu').toggleClass('visible');
 			$('.sub-menu').css('left', $(this).offset().left - 12);
+		});
+
+		$('.cd-main-nav .has-mobile-menu').click(function(event) {
+			event.stopPropagation();
+			event.preventDefault();
+			$('.mobile-sub-menu').toggleClass('visible');
 		});
 
 		$('.cd-form').submit(function(event) {
