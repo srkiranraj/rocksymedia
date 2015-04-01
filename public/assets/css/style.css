@@ -127,15 +127,9 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 	cursor: pointer;
 }
 
-#voicebank .language:hover{
-	background: #E9A804;
+#voicebank .language:hover, #voicebank .language.selected, #voicebank .language.selected:hover{
 	border-color: #E9A804;
-}
-
-#voicebank .language.selected, #voicebank .language.selected:hover{
-	background: #E9A804;
-	border-color: #E9A804;
-	color: #000;
+	color: #E9A804;
 }
 
 #voicebank-player {
