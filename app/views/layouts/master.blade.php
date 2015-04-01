@@ -44,7 +44,7 @@
 	<header class="cd-header">
 		<div id="cd-logo">
 			<a href="/">
-				<img src="assets/img/cd-logo-t-full.png" alt="Logo" height="60px">
+				<img src="assets/img/cd-logo-t-full.png" alt="Logo" height="70px">
 				<!-- <img src="assets/img/cd-logo-t.png" alt="Logo"> -->
 			</a>
 		</div>
@@ -139,13 +139,9 @@
 							<input class="email" type="email" name="cd-email" id="cd-email" required>
 							<div id="cd-email-error" class="error"></div>
 					    </div>
-					</fieldset>
 
-					<fieldset>
-						<legend>Project Info</legend>
-
-						<div class="icon">
-							<label class="cd-label" for="cd-textarea">Project description</label>
+					    <div class="icon">
+							<label class="cd-label" for="cd-textarea">Message</label>
 			      			<textarea class="message" name="cd-textarea" id="cd-textarea" required></textarea>
 			      			<div id="cd-textarea-error" class="error"></div>
 						</div>
@@ -154,10 +150,24 @@
 					      	<input id="cd-submit" type="submit" value='Send Email'>
 					    </div>
 					</fieldset>
+
+					<!-- <fieldset>
+						<legend>Project Info</legend> -->
+					<!-- </fieldset> -->
 				</form>
 				<div class="contact-info">
 					<div class="title">Address</div>
-					<address>Rocky's Media Works,<br/>No 168K, Second floor,<br/>19th Main, 1st Block, Rajajinagar,<br/>Bengaluru - 560010</address> 
+					<address>
+						Rocky's Media Works,<br/>
+						No 168K, Second floor,<br/>
+						19th Main, 1st Block, Rajajinagar,<br/>
+						Bengaluru - 560010
+					</address> 
+					<div class="row"><strong>Phone</strong>: +91-80-46605777</div>
+					<div class="row"><strong>Mobile</strong>: +91-70223-71223</div>
+					<div class="row"><strong>Email</strong>: info@rockysmediaworks.com</div>
+					<div class="row"><strong>Sales Enquiry</strong>: sales@rockysmediaworks.com</div>
+					<div class="row"><strong>Skype</strong>: rockysmediaworks.com</div>
 					
 				</div>
 			</div>

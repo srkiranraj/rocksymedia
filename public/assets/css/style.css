@@ -168,8 +168,17 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 .contact-info address{
 	font-size: 14px;
 	line-height: 22px;
+	margin-bottom: 20px;
 }
 
+.contact-info .row{
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.contact-info strong{
+	font-weight: bold;
+}
 /* Print styles
 -------------------------------------------------------------------------------*/
 @media print {
