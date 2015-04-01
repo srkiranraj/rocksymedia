@@ -39,23 +39,23 @@
 			<h1>Services</h1>
 			<div class="sub-service-wrapper">
 				<div class="sub-service">
-					<div class="placeholder">
-						<h2><strong>Content</strong></h2>
-					</div>
+					<a href="content" class="placeholder">
+						<strong>Content</strong>
+					</a>
 					<p>Content is an integral part of all media and majorly determines how effectively communication happens. We, at Rocky’s Media Works, help you with various aspects of content generation such as Transcriptions Translations, Localization etc</p>
 					<a href="content" class="btn">Know More</a>
 				</div>
 				<div class="sub-service">
-					<div class="placeholder">
-						<h2><strong>Voiceovers</strong></h2>
-					</div>
+					<a href="voiceovers" class="placeholder">
+						<strong>Voiceovers</strong>
+					</a>
 					<p>Voice is the best instrument to communicate emotions. A voice can educate, inform and entertain. Each voice has its unique signature and has a personality of its own. We at Rocky’s Media Works efficiently identify these traits and use best in class technology to fulfill customer needs.</p>
 					<a href="voiceovers" class="btn">Know More</a>
 				</div>
 				<div class="sub-service">
-					<div class="placeholder">
-						<h2><strong>Music</strong></h2>
-					</div>
+					<a href="music" class="placeholder">
+						<strong>Music</strong>
+					</a>
 					<p>Music is something that hits everyone. It’s beyond Age, Gender, Language and Geography. It is the most effective tool to communicate and express. And we, at Rocky’s media works, provide music production service for various categories and needs.</p>
 					<a href="music" class="btn">Know More</a>
 				</div>

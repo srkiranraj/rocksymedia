@@ -45,7 +45,7 @@ Route::post('message', function(){
 
 	Mail::send('emails.contact', $data, function($message)
 	{
-		$message->to(array('rakesh@rockysmedia.com'), 'Rakesh Bhaskar')->bcc('srkiranraj@gmail.com')->subject('Contact Form Submitted');
+		$message->to(array('info@rockysmediaworks.com'), 'Rakesh Bhaskar')->bcc('srkiranraj@gmail.com')->subject('New contact form submitted');
 		// $message->to(array('srkiranraj@gmail.com'), 'Rakesh Bhaskar')->bcc('srkiranraj@hotmail.com')->subject('Contact Form Submitted');
 	});
 

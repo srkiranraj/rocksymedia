@@ -9,3 +9,4 @@ Portfolio.
 [] Language List - Support for empty languages
 [] Social Links
 [] Contact form - Address info should be responsive
+[] Mobile navigation - To be fixed

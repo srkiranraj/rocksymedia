@@ -15,6 +15,10 @@ b.setAttribute('data-platform', navigator.platform);
 jQuery(function ($) {
 
     var samples = {
+        'English-Neutral': {
+            'Male': [],
+            'Female': []
+        },
         'Bengali': {
             'Male': [
                 {
@@ -358,6 +362,66 @@ jQuery(function ($) {
                     "file": "Telugu/Female/RMW19F003.wav"
                 }
             ]
+        },
+        'Assamese ': {
+            'Male': [],
+            'Female': []
+        },
+        'Dogri': {
+            'Male': [],
+            'Female': []
+        },
+        'Hindi': {
+            'Male': [],
+            'Female': []
+        },
+        'Kashmiri': {
+            'Male': [],
+            'Female': []
+        },
+        'Konkani': {
+            'Male': [],
+            'Female': []
+        },
+        'Maithili': {
+            'Male': [],
+            'Female': []
+        },
+        'Nepali': {
+            'Male': [],
+            'Female': []
+        },
+        'Punjabi': {
+            'Male': [],
+            'Female': []
+        },
+        'Sanskrit': {
+            'Male': [],
+            'Female': []
+        },
+        'Sindhi': {
+            'Male': [],
+            'Female': []
+        },
+        'Urdu ': {
+            'Male': [],
+            'Female': []
+        },
+        'Santali': {
+            'Male': [],
+            'Female': []
+        },
+        'Bodo ': {
+            'Male': [],
+            'Female': []
+        },
+        'Manipuri': {
+            'Male': [],
+            'Female': []
+        },
+        'Khasi': {
+            'Male': [],
+            'Female': []
         }
     }
 
@@ -448,20 +512,34 @@ jQuery(function ($) {
     var initializeAudioPlayer = function(key) {
         $('.male').html('');
         $('.male').append('<h2 class="gender-title">Male</h2>');
-        $.each(samples[key]['Male'], function(index, val) {
-             $('.male').append('<div class="sample-row"><h2 class="sample-name">'+val['name']+'</h2><audio preload="none" controls><source src="/assets/samples/'+val['file']+'" type="audio/mpeg">Your browser does not support the audio element.</audio></div>');
-        });
+        if(samples[key]['Male'].length <= 0)
+        {
+            $('.male').append('<div class="empty-row">We are updating our database, kindly visit later.</div>');
+        }
+        else
+        {
+            $.each(samples[key]['Male'], function(index, val) {
+                 $('.male').append('<div class="sample-row"><h2 class="sample-name">'+val['name']+'</h2><audio preload="none" controls><source src="/assets/samples/'+val['file']+'" type="audio/mpeg">Your browser does not support the audio element.</audio></div>');
+            });
+        }
 
         $('.female').html('');
         $('.female').append('<h2 class="gender-title">Female</h2>');
-        $.each(samples[key]['Female'], function(index, val) {
-             $('.female').append('<div class="sample-row"><h2 class="sample-name">'+val['name']+'</h2><audio preload="none" controls><source src="/assets/samples/'+val['file']+'" type="audio/mpeg">Your browser does not support the audio element.</audio></div>');
-        });
+        if(samples[key]['Female'].length <= 0)
+        {
+            $('.female').append('<div class="empty-row">We are updating our database, kindly visit later.</div>');
+        }
+        else
+        {
+            $.each(samples[key]['Female'], function(index, val) {
+                 $('.female').append('<div class="sample-row"><h2 class="sample-name">'+val['name']+'</h2><audio preload="none" controls><source src="/assets/samples/'+val['file']+'" type="audio/mpeg">Your browser does not support the audio element.</audio></div>');
+            });
+        }
     }
 
     var index = 0;
     $.each(samples, function(key, value) {
-        if(index == 0)
+        if(index == 1)
         {
             $('#voicebank #languages').append('<a data-language="'+key+'" class="language selected">'+key+'</a>');
             initializeAudioPlayer(key);

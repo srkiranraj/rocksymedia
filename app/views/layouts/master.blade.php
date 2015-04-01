@@ -30,7 +30,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
 	<link rel="stylesheet" type="text/css" href="assets/css/messenger.css" />
-	<link rel="stylesheet" type="text/css" href="assets/css/messenger-theme-flat.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/messenger-theme-air.css" />
 
 	@yield('css')
 
@@ -206,7 +206,6 @@
 
 	<script src="assets/js/libs/jquery-scrollto.js"></script>
 	<script src="assets/js/libs/messenger.min.js"></script>
-	<script src="assets/js/libs/messenger-theme-flat.js"></script>
 	<script src="assets/js/map.js"></script>
 	<script src="assets/js/functions.js"></script>
 

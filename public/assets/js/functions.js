@@ -15,8 +15,8 @@
 	$(document).ready(function (){
 
 		Messenger.options = {
-		    extraClasses: 'messenger-fixed messenger-on-top',
-		    theme: 'flat'
+		    extraClasses: 'messenger-fixed messenger-on-bottom messenger-on-right',
+		    theme: 'air'
 		}
 
 		$('a.scroll').click(function(event) {

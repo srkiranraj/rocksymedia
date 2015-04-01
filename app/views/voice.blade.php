@@ -6,7 +6,7 @@
 
 @section('content')
 	<div class="cd-fixed-bg cd-bg-4">
-		<h2>Voice Overs</h2>
+		<h2>Voiceovers</h2>
 	</div>
 
 	<div class="cd-scrolling-bg cd-color-5">
