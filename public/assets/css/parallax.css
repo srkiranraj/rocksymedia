@@ -285,7 +285,7 @@ Main components
   color: white;
 }
 .cd-fixed-bg.cd-bg-1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("../img/black.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("../img/cd-background-1.jpg");
 }
 .cd-fixed-bg.cd-bg-2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("../img/cd-background-2.jpg");
