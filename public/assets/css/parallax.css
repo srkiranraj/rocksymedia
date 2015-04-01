@@ -51,8 +51,7 @@ Modules - reusable parts of our design
 -------------------------------- */
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
-  width: 90%;
-  max-width: 1024px;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -127,8 +126,8 @@ Main components
         linear-gradient(90deg, #E9A804, #000)
     ;
     -moz-background-size: 100% 1px;
-    background-size: 100% 1px;
-    background-position: 0 100%, 0 0;
+    background-size: 80% 1px;
+    background-position: 50% 100%, 0 0;
     background-repeat: no-repeat;
 }
 .cd-header:after {
@@ -278,8 +277,6 @@ Main components
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  width: 90%;
-  max-width: 1170px;
   text-align: center;
   font-size: 48px;
   font-weight: normal;
@@ -288,7 +285,7 @@ Main components
   color: white;
 }
 .cd-fixed-bg.cd-bg-1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("../img/cd-background-1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("../img/black.jpg");
 }
 .cd-fixed-bg.cd-bg-2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("../img/cd-background-2.jpg");

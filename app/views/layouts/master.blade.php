@@ -141,7 +141,7 @@
 					    </div>
 
 					    <div class="icon">
-							<label class="cd-label" for="cd-textarea">Message</label>
+							<label class="cd-label" for="cd-textarea">How can we help you ?</label>
 			      			<textarea class="message" name="cd-textarea" id="cd-textarea" required></textarea>
 			      			<div id="cd-textarea-error" class="error"></div>
 						</div>

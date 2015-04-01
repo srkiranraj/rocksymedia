@@ -2,10 +2,10 @@
 
 @section('content')
 
-	<div id="home" class="cd-fixed-bg cd-bg-2">
+	<div id="home" class="cd-fixed-bg cd-bg-1">
 		<h1>
-			<!-- <img src="assets/img/cd-logo-big.svg" alt="Rocky's Media Works" width="60%"> -->
-			<img src="assets/img/cd-logo-t-full.png" alt="Rocky's Media Works" width="40%">
+			<div id="arctext">Welcome to</div>
+			<img src="assets/img/cd-logo-t-full.png" alt="Rocky's Media Works" width="60%">
 		</h1>
 	</div>
 
@@ -63,4 +63,8 @@
 		</div>
 	</div>
 	
+@stop
+
+@section('scripts')
+	<script src="assets/js/libs/jquery.arctext.js"></script>
 @stop

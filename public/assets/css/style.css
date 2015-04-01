@@ -13,6 +13,14 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 input:-moz-placeholder { color:#a9a9a9; }
 textarea:-moz-placeholder { color:#a9a9a9; }
 
+#arctext{
+	font-family: 'Open Sans', 'san-serif';
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #957A4A;
+	margin-bottom: 20px;
+}
+
 .sub-service-wrapper{
 	width: 971px;
 	margin: auto;
@@ -63,6 +71,10 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 -------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 768px) {
+	#arctext{
+		font-size: 22px;
+	}
+
 	.sub-service-wrapper{
 		width: 648px;
 	}
