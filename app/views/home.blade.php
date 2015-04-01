@@ -67,4 +67,9 @@
 
 @section('scripts')
 	<script src="assets/js/libs/jquery.arctext.js"></script>
+	<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$('#arctext').arctext({radius: 300});	
+	});
+	</script>
 @stop

@@ -14,8 +14,6 @@
 	/* trigger when page is ready */
 	$(document).ready(function (){
 
-		$('#arctext').arctext({radius: 300});
-
 		Messenger.options = {
 		    extraClasses: 'messenger-fixed messenger-on-top',
 		    theme: 'flat'
